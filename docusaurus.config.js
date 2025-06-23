@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Fay Docs',
+  title: 'Docs',
   tagline: 'The Deep Research Platform',
   favicon: 'img/favicon.ico',
 
@@ -67,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/fay-social-card.jpg',
       navbar: {
-        title: 'Fay Docs',
+        title: 'Docs',
         logo: {
           alt: 'Fay Logo',
           src: 'img/logo.svg',
