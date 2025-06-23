@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Fay Docs',
-  tagline: 'Official Fay documentation',
+  tagline: 'The Deep Research Platform',
   favicon: 'img/favicon.ico',
 
   // Future flags, see https://docusaurus.io/docs/api/docusaurus-config#future
@@ -51,7 +51,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/fay-work/fay-docs/tree/main/',
         },
         blog: false,
         theme: {
@@ -65,11 +65,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/fay-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Fay Docs',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Fay Logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -77,7 +77,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Docs',
+            label: 'Documentation',
+          },
+          {
+            href: 'https://fay.work',
+            label: 'Website',
+            position: 'right',
           },
           {
             href: 'https://github.com/fay-work/fay-docs',
@@ -90,42 +95,37 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Documentation',
             items: [
               {
                 label: 'Getting Started',
                 to: '/docs/api-key',
               },
-            ],
-          },
-          {
-            title: 'Community',
-            items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'API Reference',
+                to: '/docs/apis/',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'Webhooks',
+                to: '/docs/webhooks',
               },
             ],
           },
           {
-            title: 'More',
+            title: 'Resources',
             items: [
+              {
+                label: 'Website',
+                href: 'https://fay.work',
+              },
               {
                 label: 'GitHub',
-                href: 'https://github.com/fay-work/fay-docs',
+                href: 'https://github.com/propulsion-ai',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} PropulsionAI, Inc.`,
       },
       prism: {
         theme: prismThemes.github,
