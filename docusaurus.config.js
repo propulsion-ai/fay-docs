@@ -80,6 +80,11 @@ const config = {
             label: 'Documentation',
           },
           {
+            to: '/docs/category/api-reference',
+            position: 'left',
+            label: 'API Reference',
+          },
+          {
             href: 'https://fay.work',
             label: 'Website',
             position: 'right',
@@ -103,7 +108,7 @@ const config = {
               },
               {
                 label: 'API Reference',
-                to: '/docs/apis/',
+                to: '/docs/category/api-reference',
               },
               {
                 label: 'Webhooks',
