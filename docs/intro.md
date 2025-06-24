@@ -4,7 +4,7 @@ title: Introduction
 sidebar_label: Introduction
 ---
 
-# Welcome to Fay Documentation
+# Welcome to Fay
 
 Fay is the deep research platform that turns complex questions into ready-to-use, source-linked answers. With production-grade deep research capabilities and live citations, Fay provides everything you need to build intelligent applications that can answer any question with comprehensive, well-sourced information.
 

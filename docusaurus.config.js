@@ -67,7 +67,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/fay-social-card.jpg',
       navbar: {
-        title: 'Fay Docs',
+        title: 'Docs',
         logo: {
           alt: 'Fay Logo',
           src: 'img/logo.svg',
