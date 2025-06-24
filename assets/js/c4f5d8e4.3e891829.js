@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[634],{192:(e,t,c)=>{c.r(t),c.d(t,{default:()=>r});var n=c(6540),s=c(6347),d=c(4848);function r(){const e=(0,s.W6)();return(0,n.useEffect)(()=>{e.replace("/docs/intro")},[e]),(0,d.jsx)("div",{style:{padding:"2rem",textAlign:"center"},children:(0,d.jsx)("p",{children:"Redirecting to documentation..."})})}}}]);
