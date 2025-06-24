@@ -10,7 +10,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Docs',
+  title: 'Fay Documentation',
   tagline: 'The Deep Research Platform',
   favicon: 'img/favicon.ico',
 
@@ -67,10 +67,11 @@ const config = {
       // Replace with your project's social card
       image: 'img/fay-social-card.jpg',
       navbar: {
-        title: 'Docs',
+        title: 'Fay Docs',
         logo: {
           alt: 'Fay Logo',
           src: 'img/logo.svg',
+          srcDark: 'img/logo_dark.svg',
         },
         items: [
           {
@@ -80,17 +81,12 @@ const config = {
             label: 'Documentation',
           },
           {
-            to: '/docs/category/api-reference',
-            position: 'left',
-            label: 'API Reference',
-          },
-          {
             href: 'https://fay.work',
             label: 'Website',
             position: 'right',
           },
           {
-            href: 'https://github.com/fay-work/fay-docs',
+            href: 'https://github.com/propulsion-ai',
             label: 'GitHub',
             position: 'right',
           },
@@ -103,12 +99,12 @@ const config = {
             title: 'Documentation',
             items: [
               {
-                label: 'Getting Started',
-                to: '/docs/api-key',
+                label: 'Introduction',
+                to: '/docs/intro',
               },
               {
                 label: 'API Reference',
-                to: '/docs/category/api-reference',
+                to: '/docs/apis/create-conversation',
               },
               {
                 label: 'Webhooks',
@@ -126,6 +122,19 @@ const config = {
               {
                 label: 'GitHub',
                 href: 'https://github.com/propulsion-ai',
+              },
+            ],
+          },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Privacy Policy',
+                href: 'https://fay.work/privacy-policy',
+              },
+              {
+                label: 'Terms of Use',
+                href: 'https://fay.work/terms-of-use',
               },
             ],
           },
