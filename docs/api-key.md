@@ -254,7 +254,7 @@ API keys are subject to rate limits based on your plan:
 
 If you need assistance with API keys:
 
-- Check our [API Reference](/docs/category/api-reference) for detailed endpoint documentation
+- Check our [API Reference](/docs/apis/create-conversation) for detailed endpoint documentation
 - Visit our [GitHub repository](https://github.com/fay-work/fay-docs) for examples
 - Contact support through your Fay dashboard
 
@@ -262,7 +262,7 @@ If you need assistance with API keys:
 
 Now that you have your API key, you can:
 
-- [Explore the API Reference](/docs/category/api-reference) to see all available endpoints
+- [Explore the API Reference](/docs/apis/create-conversation) to see all available endpoints
 - [Learn about Webhooks](/docs/webhooks) for real-time notifications
 - Start building with Fay's deep research capabilities
 
